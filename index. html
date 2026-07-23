@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abirami S | Portfolio</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header>
+
+<div class="logo">
+    ABIRAMI <span>S</span>
+</div>
+
+<nav>
+
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#education">Education</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+
+</nav>
+
+</header>
+
+<!-- ================= HERO ================= -->
+
+<section class="home" id="home">
+
+<div class="home-text">
+
+<h4>Hello, I'm</h4>
+
+<h1>Abirami S</h1>
+
+<h3>Aspiring Software Developer</h3>
+
+<p>
+Passionate about building modern web applications,
+AI projects and solving real-world problems through code.
+</p>
+
+<div class="buttons">
+
+<a href="resume.pdf" class="btn">Download Resume</a>
+
+<a href="#projects" class="btn-outline">View Projects</a>
+
+</div>
+
+<div class="social">
+
+<a href="https://github.com/ari2738" target="_blank">
+<i class="fab fa-github"></i>
+</a>
+
+<a href="https://www.linkedin.com/in/abirami-shanmugam-7551a12b6" target="_blank">
+<i class="fab fa-linkedin"></i>
+</a>
+
+<a href="mailto:shanmugamarigaran@gmail.com">
+<i class="fas fa-envelope"></i>
+</a>
+
+</div>
+
+</div>
+
+<div class="home-image">
+
+<img src="images/profile.png" alt="Profile">
+
+</div>
+
+</section>
+
+<!-- ================= ABOUT ================= -->
+
+<section class="about" id="about">
+
+<div class="about-image">
+
+<img src="images/about.jpg" alt="About">
+
+</div>
+
+<div class="about-text">
+
+<h5>ABOUT ME</h5>
+
+<h2>Get to know me!</h2>
+
+<p>
+
+I'm a Computer Science Engineering student passionate about
+Full Stack Development, Artificial Intelligence and modern web
+technologies.
+
+I enjoy learning new technologies and creating real-world projects.
+
+</p>
+
+<div class="info">
+
+<div class="box">
+<h3>Born</h3>
+<p>2006</p>
+</div>
+
+<div class="box">
+<h3>Location</h3>
+<p>Tiruvannamalai, Tamil Nadu</p>
+</div>
+
+<div class="box">
+<h3>Degree</h3>
+<p>B.E CSE Final Year</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= EDUCATION ================= -->
+
+<section class="education" id="education">
+
+<h2 class="title">Education</h2>
+
+<div class="education-container">
+
+<div class="card">
+
+<h3>B.E Computer Science Engineering</h3>
+
+<h4>SKP Engineering College</h4>
+
+<p>2023 - 2027</p>
+
+<p>
+Currently Final Year Student
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Higher Secondary (12th)</h3>
+
+<h4>Maharishi Higher Secondary School, Chengam</h4>
+
+<p>2023 - 2024</p>
+
+<p>Completed with 90%</p>
+
+</div>
+
+<div class="card">
+
+<h3>SSLC (10th)</h3>
+
+<h4>St. Antony's Matriculation School, Kanji</h4>
+
+<p>2021 - 2022</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= PROJECTS ================= -->
+
+<section id="projects" class="projects">
+
+<h2 class="title">Projects</h2>
+
+<div class="project-container">
+
+<div class="project-card">
+
+<img src="images/booknest.png">
+
+<h3>BookNest</h3>
+
+<p>
+Full Stack Online Bookstore with Gemini AI.
+</p>
+
+</div>
+
+<div class="project-card">
+
+<img src="images/skin.png">
+
+<h3>Skin Disease Classifier</h3>
+
+<p>
+CNN based AI model using TensorFlow.
+</p>
+
+</div>
+
+<div class="project-card">
+
+<img src="images/taxi.png">
+
+<h3>NYC Taxi Trip Analyzer</h3>
+
+<p>
+Big Data Analytics using PySpark.
+</p>
+
+</div>
+
+<div class="project-card">
+
+<img src="images/animame.png">
+
+<h3>AnimaMe</h3>
+
+<p>
+AI Character Generator with Voice.
+</p>
+
+</div>
+
+<div class="project-card">
+
+<img src="images/expense.png">
+
+<h3>Smart Expense Tracker</h3>
+
+<p>
+Expense Tracker using Django.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= CONTACT ================= -->
+
+<section class="contact" id="contact">
+
+<h2 class="title">Contact</h2>
+
+<div class="contact-box">
+
+<div>
+
+<i class="fas fa-envelope"></i>
+
+<h3>Email</h3>
+
+<p>shanmugamarigaran@gmail.com</p>
+
+</div>
+
+<div>
+
+<i class="fab fa-linkedin"></i>
+
+<h3>LinkedIn</h3>
+
+<p>
+linkedin.com/in/abirami-shanmugam-7551a12b6
+</p>
+
+</div>
+
+<div>
+
+<i class="fab fa-github"></i>
+
+<h3>GitHub</h3>
+
+<p>github.com/ari2738</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+<p>
+
+© 2025 Abirami S | All Rights Reserved
+
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
